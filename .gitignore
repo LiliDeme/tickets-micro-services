@@ -16,8 +16,10 @@ Thumbs.db
 # Maven
 target/
 
-# Spring Boot config
+# environment variables
 .env
+auth-service/.env
+
 
 # === auth-service ===
 auth-service/HELP.md
@@ -50,10 +52,6 @@ auth-service/.nb-gradle/
 auth-service/build/
 !auth-service/**/src/main/**/build/
 !auth-service/**/src/test/**/build/
-
-# Spring Boot config
-auth-service/src/main/resources/application.properties
-auth-service/src/main/resources/application.yml
 
 ### VS Code ###
 auth-service/.vscode/
